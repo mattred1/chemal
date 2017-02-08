@@ -30,7 +30,7 @@ header {
   top: 0;
   position: absolute;
   z-index: -1;
-  background: url("../images/woods1.jpg") no-repeat 0% 0%;
+  background: url("/images/woods.jpg") no-repeat 0% 0%;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -43,7 +43,7 @@ footer {
   bottom: -300px;
   position: fixed;
   z-index: -1;
-  background: url("../images/woods2.jpg") no-repeat 50% 50%;
+  background: url("/images/wood1.jpg") no-repeat 50% 50%;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
