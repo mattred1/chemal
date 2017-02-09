@@ -71,7 +71,7 @@ h1 {
   margin: 0;
   text-align: center;
   font-family: Helvetica;
-  font-size: 8em;
+  font-size: 5em;
   color: #fff;
 }
 
@@ -84,9 +84,9 @@ header h1 {
   color: #999;
 }
 
-footer h1 {
+/*footer h1 {
   line-height: 300px;
-}
+}*/
 
 header,
 footer,
@@ -102,4 +102,27 @@ footer,
   -webkit-transition-timing-function: cubic-bezier(0, 0, 0, 1);
      -moz-transition-timing-function: cubic-bezier(0, 0, 0, 1);
       transition-timing-function: cubic-bezier(0, 0, 0, 1);
+}
+
+form {
+  width: 100%;
+  padding: 0;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 1.5em;
+  color: #fff;
+    box-sizing: border-box;
+/*    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    background-image: url('searchicon.png'); 
+    background-position: 10px 10px; */
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+textarea:focus, input:focus {
+  border: 2px solid lightgray;
 }
