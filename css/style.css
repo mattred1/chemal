@@ -66,8 +66,8 @@ footer {
 
 h1 {
   width: 100%;
-  height: 100%;
-  padding: 0;
+/*  height: 100%;
+*/  padding: 0;
   margin: 0;
   text-align: center;
   font-family: Helvetica;
@@ -105,22 +105,25 @@ footer,
 }
 
 form {
-  width: 100%;
+  width: 20%;
   padding: 0;
-  margin: auto;
+  margin: 0 auto;
   position: absolute;
   text-align: center;
   font-family: Helvetica;
-  font-size: 2em;
+  font-size: 2em; 
   color: #fff;
   box-sizing: border-box;
   padding: 12px 20px 12px 40px;
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
+
 }
 
-input {
-  width: 150%;
+.center {
+  display: flex;
+  justify-content: center;
+
 }
 
 textarea:focus, input:focus {
