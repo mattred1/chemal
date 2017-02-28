@@ -60,6 +60,7 @@ footer {
   z-index: 1;
 }
 
+
 .wrapper-parallax {
   margin-top: 100%;
   margin-bottom: 300px;
@@ -80,10 +81,26 @@ h1 {
 
 
 .content h1 {
-  line-height: 1000px;
-  color: #999;
+  color: black;
+  font-family: Helvetica;
 }
 
+
+ul li {
+  list-style-type: none; 
+  position: relative; 
+  font-family: Helvetica;
+  text-align: center;
+  line-height: 2em;
+  font-size: 2em;
+}
+
+section img {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  margin: 3%;
+}
 
 header,
 footer,
